@@ -8,7 +8,7 @@ from django.contrib.auth.models import User
 from .models import Chat
 from django.utils import timezone
 
-openai.api_key = os.environ.get('OPENAI_API_KEY', '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')
+openai.api_key = os.environ.get('OPENAI_API_KEY', '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')
 
 def ask_openai(message):
     try:
