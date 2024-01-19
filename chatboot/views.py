@@ -7,11 +7,11 @@ from django.contrib.auth.models import User
 from .models import Chat
 from django.utils import timezone
 
-openai.api_key = os.environ.get('OPENAI_API_KEY', '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')
+openai.api_key = os.environ.get('OPENAI_API_KEY', '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')
 
 def ask_openai(message):
     """
-    Sends a message to the OpenAI GPT-3.5-turbo model and retrieves a response.
+    Sends a message to the OpenAI GPT-4 model and retrieves a response.
 
     Parameters:
         message (str): The user's message to be sent to the AI model.
